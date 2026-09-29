@@ -45,11 +45,11 @@ jobs:
       with:
         name: shell-${{matrix.platform}}
         path: |
-          ${{env.BIN_PATH}}\*
-          !${{env.BIN_PATH}}\*.lib
-          !${{env.BIN_PATH}}\*.exp
-          !${{env.BIN_PATH}}\*.wixpdb
-          !${{env.BIN_PATH}}\ca.dll
+          src/bin/*
+          !src/bin/*.lib
+          !src/bin/*.exp
+          !src/bin/*.wixpdb
+          !src/bin/ca.dll
         if-no-files-found: warn
         retention-days: 0
         compression-level: 6
