@@ -16,7 +16,7 @@ jobs:
       matrix:
         # configuration: [debug, release]
         configuration: [release]
-        platform: [x64, x86]
+        platform: [x64] #, x86, arm64]
       fail-fast: false
 
     env:
