@@ -4,7 +4,7 @@
 [![Nightly](https://img.shields.io/badge/Nightly-nightly.link-purple)](https://nightly.link/moudey/Shell/workflows/build/main)
 
 # [Shell](https://nilesoft.org)
-Powerful manager for Windows File Explorer context menu.
+Powerful manager for Windows File Explorer context menu. Built for Windows x64 and x86
 <br>
 
 <p align="center">
